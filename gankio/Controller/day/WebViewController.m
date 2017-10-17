@@ -60,6 +60,7 @@
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"" message:@"是否保存这个妹子" preferredStyle:UIAlertControllerStyleActionSheet];
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消"style:UIAlertActionStyleCancel handler:nil];
     UIAlertAction *archiveAction = [UIAlertAction actionWithTitle:@"保存"style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        //somthing wrong
         UIImageWriteToSavedPhotosAlbum(self.image, nil, nil, nil);
     }];
     [alertController addAction:cancelAction];
