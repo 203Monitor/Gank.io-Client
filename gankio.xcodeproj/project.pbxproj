@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E0C2C231D82BF9300FEE867 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C2C221D82BF9300FEE867 /* RootController.m */; };
+		0E1557D21F9654F800BAF2B4 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1557D01F9654F700BAF2B4 /* RootController.m */; };
+		0E1557D51F96557300BAF2B4 /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1557D31F96557200BAF2B4 /* CategoryController.m */; };
+		0E1557DC1F96558A00BAF2B4 /* ItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1557D61F96558900BAF2B4 /* ItemController.m */; };
+		0E1557DD1F96558A00BAF2B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1557DA1F96558A00BAF2B4 /* WebViewController.m */; };
+		0E1557DE1F96558A00BAF2B4 /* DayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1557DB1F96558A00BAF2B4 /* DayController.m */; };
+		0E1557E31F96559D00BAF2B4 /* SearchController_old.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1557DF1F96559D00BAF2B4 /* SearchController_old.m */; };
+		0E1557E41F96559D00BAF2B4 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1557E21F96559D00BAF2B4 /* SearchController.m */; };
+		0E1557E81F96560F00BAF2B4 /* BaseViewController+GankIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1557E71F96560F00BAF2B4 /* BaseViewController+GankIO.m */; };
 		0E6E3DB81EEEAE5B0066616D /* NewRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E3DB61EEEAE5B0066616D /* NewRootViewController.m */; };
 		0E6E3DB91EEEAE5B0066616D /* NewRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6E3DB71EEEAE5B0066616D /* NewRootViewController.xib */; };
 		0E6E3DBC1EEF860E0066616D /* SelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E3DBB1EEF860E0066616D /* SelectView.m */; };
@@ -26,8 +33,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E0C2C211D82BF9300FEE867 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
-		0E0C2C221D82BF9300FEE867 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		0E1557D01F9654F700BAF2B4 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		0E1557D11F9654F800BAF2B4 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		0E1557D31F96557200BAF2B4 /* CategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryController.m; sourceTree = "<group>"; };
+		0E1557D41F96557200BAF2B4 /* CategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryController.h; sourceTree = "<group>"; };
+		0E1557D61F96558900BAF2B4 /* ItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemController.m; sourceTree = "<group>"; };
+		0E1557D71F96558900BAF2B4 /* ItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemController.h; sourceTree = "<group>"; };
+		0E1557D81F96558A00BAF2B4 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		0E1557D91F96558A00BAF2B4 /* DayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayController.h; sourceTree = "<group>"; };
+		0E1557DA1F96558A00BAF2B4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		0E1557DB1F96558A00BAF2B4 /* DayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayController.m; sourceTree = "<group>"; };
+		0E1557DF1F96559D00BAF2B4 /* SearchController_old.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController_old.m; sourceTree = "<group>"; };
+		0E1557E01F96559D00BAF2B4 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
+		0E1557E11F96559D00BAF2B4 /* SearchController_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController_old.h; sourceTree = "<group>"; };
+		0E1557E21F96559D00BAF2B4 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
+		0E1557E61F96560F00BAF2B4 /* BaseViewController+GankIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseViewController+GankIO.h"; sourceTree = "<group>"; };
+		0E1557E71F96560F00BAF2B4 /* BaseViewController+GankIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BaseViewController+GankIO.m"; sourceTree = "<group>"; };
 		0E6E3DB51EEEAE5B0066616D /* NewRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRootViewController.h; sourceTree = "<group>"; };
 		0E6E3DB61EEEAE5B0066616D /* NewRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRootViewController.m; sourceTree = "<group>"; };
 		0E6E3DB71EEEAE5B0066616D /* NewRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewRootViewController.xib; sourceTree = "<group>"; };
@@ -37,18 +58,6 @@
 		0E7A9D5E1D86818C00A9535B /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		0E7A9D711D86BCA600A9535B /* SearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchModel.h; sourceTree = "<group>"; };
 		0E7A9D721D86BCA600A9535B /* SearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchModel.m; sourceTree = "<group>"; };
-		0EE04D571F9652F80080A247 /* DayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayController.h; sourceTree = "<group>"; };
-		0EE04D581F9652F80080A247 /* DayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayController.m; sourceTree = "<group>"; };
-		0EE04D591F9652F80080A247 /* ItemController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemController.h; sourceTree = "<group>"; };
-		0EE04D5A1F9652F80080A247 /* ItemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemController.m; sourceTree = "<group>"; };
-		0EE04D5B1F9652F80080A247 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		0EE04D5C1F9652F80080A247 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		0EE04D5F1F9652F80080A247 /* CategoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryController.h; sourceTree = "<group>"; };
-		0EE04D601F9652F80080A247 /* CategoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryController.m; sourceTree = "<group>"; };
-		0EE04D621F9652F80080A247 /* SearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
-		0EE04D631F9652F80080A247 /* SearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
-		0EE04D641F9652F80080A247 /* SearchController_old.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchController_old.h; sourceTree = "<group>"; };
-		0EE04D651F9652F80080A247 /* SearchController_old.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchController_old.m; sourceTree = "<group>"; };
 		0EFBF47F1D815D36004C0A76 /* gankio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gankio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFBF4831D815D36004C0A76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EFBF4931D815D36004C0A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,6 +99,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0E1557BE1F96547B00BAF2B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E1557D11F9654F800BAF2B4 /* RootController.h */,
+				0E1557D01F9654F700BAF2B4 /* RootController.m */,
+				0E1557E51F9655EA00BAF2B4 /* Base */,
+				0E1557BF1F96547B00BAF2B4 /* Category */,
+				0E1557C21F96547B00BAF2B4 /* Day */,
+				0E1557CB1F96547B00BAF2B4 /* Search */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E1557BF1F96547B00BAF2B4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0E1557D41F96557200BAF2B4 /* CategoryController.h */,
+				0E1557D31F96557200BAF2B4 /* CategoryController.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0E1557C21F96547B00BAF2B4 /* Day */ = {
+			isa = PBXGroup;
+			children = (
+				0E1557D91F96558A00BAF2B4 /* DayController.h */,
+				0E1557DB1F96558A00BAF2B4 /* DayController.m */,
+				0E1557D71F96558900BAF2B4 /* ItemController.h */,
+				0E1557D61F96558900BAF2B4 /* ItemController.m */,
+				0E1557D81F96558A00BAF2B4 /* WebViewController.h */,
+				0E1557DA1F96558A00BAF2B4 /* WebViewController.m */,
+			);
+			path = Day;
+			sourceTree = "<group>";
+		};
+		0E1557CB1F96547B00BAF2B4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0E1557E11F96559D00BAF2B4 /* SearchController_old.h */,
+				0E1557DF1F96559D00BAF2B4 /* SearchController_old.m */,
+				0E1557E01F96559D00BAF2B4 /* SearchController.h */,
+				0E1557E21F96559D00BAF2B4 /* SearchController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0E1557E51F9655EA00BAF2B4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0E1557E61F96560F00BAF2B4 /* BaseViewController+GankIO.h */,
+				0E1557E71F96560F00BAF2B4 /* BaseViewController+GankIO.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		0E6E3DB41EEEAE050066616D /* NNNew */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,46 +173,6 @@
 				0E7A9D5E1D86818C00A9535B /* Common.h */,
 			);
 			path = Macro;
-			sourceTree = "<group>";
-		};
-		0EE04D561F9652F80080A247 /* Day */ = {
-			isa = PBXGroup;
-			children = (
-				0EE04D571F9652F80080A247 /* DayController.h */,
-				0EE04D581F9652F80080A247 /* DayController.m */,
-				0EE04D591F9652F80080A247 /* ItemController.h */,
-				0EE04D5A1F9652F80080A247 /* ItemController.m */,
-				0EE04D5B1F9652F80080A247 /* WebViewController.h */,
-				0EE04D5C1F9652F80080A247 /* WebViewController.m */,
-			);
-			path = Day;
-			sourceTree = "<group>";
-		};
-		0EE04D5D1F9652F80080A247 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		0EE04D5E1F9652F80080A247 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				0EE04D5F1F9652F80080A247 /* CategoryController.h */,
-				0EE04D601F9652F80080A247 /* CategoryController.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		0EE04D611F9652F80080A247 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				0EE04D621F9652F80080A247 /* SearchController.h */,
-				0EE04D631F9652F80080A247 /* SearchController.m */,
-				0EE04D641F9652F80080A247 /* SearchController_old.h */,
-				0EE04D651F9652F80080A247 /* SearchController_old.m */,
-			);
-			path = Search;
 			sourceTree = "<group>";
 		};
 		0EFBF4761D815D36004C0A76 = {
@@ -176,9 +200,9 @@
 				0E7A9D5D1D86816600A9535B /* Macro */,
 				0EFBF4AE1D818122004C0A76 /* Utils */,
 				0EFBF4B11D818122004C0A76 /* Resource */,
+				0E1557BE1F96547B00BAF2B4 /* Controller */,
 				0EFBF4C81D81B020004C0A76 /* View */,
 				0EFBF4B81D818122004C0A76 /* Model */,
-				0EFBF4BB1D818122004C0A76 /* Controller */,
 				0EFBF4C41D818153004C0A76 /* Delegate */,
 				0EFBF4931D815D36004C0A76 /* Info.plist */,
 				0EFBF4821D815D36004C0A76 /* Supporting Files */,
@@ -223,19 +247,6 @@
 				0E7A9D721D86BCA600A9535B /* SearchModel.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		0EFBF4BB1D818122004C0A76 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				0EE04D5D1F9652F80080A247 /* Base */,
-				0EE04D5E1F9652F80080A247 /* Category */,
-				0EE04D561F9652F80080A247 /* Day */,
-				0EE04D611F9652F80080A247 /* Search */,
-				0E0C2C211D82BF9300FEE867 /* RootController.h */,
-				0E0C2C221D82BF9300FEE867 /* RootController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		0EFBF4C41D818153004C0A76 /* Delegate */ = {
@@ -393,12 +404,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E6E3DBC1EEF860E0066616D /* SelectView.m in Sources */,
+				0E1557D51F96557300BAF2B4 /* CategoryController.m in Sources */,
 				0EFBF4CF1D81B074004C0A76 /* ItemCell.m in Sources */,
+				0E1557E31F96559D00BAF2B4 /* SearchController_old.m in Sources */,
+				0E1557E81F96560F00BAF2B4 /* BaseViewController+GankIO.m in Sources */,
 				0EFBF4841D815D36004C0A76 /* main.m in Sources */,
 				0EFBF4C21D818122004C0A76 /* ItemModel.m in Sources */,
+				0E1557DE1F96558A00BAF2B4 /* DayController.m in Sources */,
 				0E6E3DB81EEEAE5B0066616D /* NewRootViewController.m in Sources */,
 				0EFBF4BE1D818122004C0A76 /* NetWorkUtil.m in Sources */,
-				0E0C2C231D82BF9300FEE867 /* RootController.m in Sources */,
+				0E1557E41F96559D00BAF2B4 /* SearchController.m in Sources */,
+				0E1557DD1F96558A00BAF2B4 /* WebViewController.m in Sources */,
+				0E1557DC1F96558A00BAF2B4 /* ItemController.m in Sources */,
+				0E1557D21F9654F800BAF2B4 /* RootController.m in Sources */,
 				0E7A9D731D86BCA600A9535B /* SearchModel.m in Sources */,
 				0EFBF4C71D818153004C0A76 /* AppDelegate.m in Sources */,
 			);
